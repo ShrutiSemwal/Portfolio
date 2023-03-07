@@ -20,7 +20,7 @@ export default function ExperienceCard({experience}: Props) {
            transition={{duration: 1.2}}
            whileInView={{opacity: 1, y:0}}
            viewport={{once: true}}
-           className='w-20 h-20 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-32 xl:h-32 object-cover object-center'
+           className='w-20 h-20 md:w-32 md:h-32 rounded-full md:rounded-full xl:w-52 xl:h-52 object-cover object-center'
              src={urlFor(experience?.companyImage).url()}
              alt='cognizant'
             />
